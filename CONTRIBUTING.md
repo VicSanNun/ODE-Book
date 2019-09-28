@@ -13,3 +13,5 @@ Você pode contribuir para o projeto das seguintes formas:
 - Compartilhando
   
   >**OBS**: Se possível, quando sugerir exemplos ou novos tópicos, mandar o texto em LaTex. Quanto aos novos exemplos, mandar também a resolução.
+
+

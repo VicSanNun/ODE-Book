@@ -1,0 +1,20 @@
+# Fdb version 3
+["pdflatex"] 1569700545 "/home/victordev/ODE-Book/src/main.tex" "/home/victordev/ODE-Book/src/main.pdf" "main" 1569700545
+  "/home/victordev/ODE-Book/src/main.aux" 1569700545 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/victordev/ODE-Book/src/main.tex" 1569700542 60 ce06c27cee794718a47a1cc6523047fc ""
+  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1557554374 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm" 1557554374 1508 efecb4a315fe0975509670a272d75ef5 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1557554374 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texmf-dist/tex/latex/base/bk10.clo" 1557554374 8134 ac6964cf5a7ffe6e15439e746956135d ""
+  "/usr/share/texmf-dist/tex/latex/base/book.cls" 1557554374 23057 c530077dc0c87c9ab73e8388f54f2c23 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1557554374 33301 a3134070eacafb10b1f371612ce2650d ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1569209768 3233970 ab845fc2b5afa9d5e4a65f288842af78 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1569209732 7979416 2e9df25e82c1df9c12fd35f07dae56a2 ""
+  "main.aux" 1569700545 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "main.tex" 1569700542 60 ce06c27cee794718a47a1cc6523047fc ""
+  (generated)
+  "/home/victordev/ODE-Book/src/main.log"
+  "/home/victordev/ODE-Book/src/main.pdf"
+  "main.pdf"
+  "main.log"
+  "main.aux"

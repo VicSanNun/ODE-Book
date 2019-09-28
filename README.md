@@ -4,3 +4,6 @@ A base deste livro são notas do curso ministrado pelo [Prof. Dr. Rubens Diego B
 
 ## Contribuições
 Para contribuir, com o livro, leia o [Contributing](./CONTRIBUTING.md) do projeto.
+
+## Baixar o livro
+Para baixar o livro clique neste [link](https://github.com/VicSanNun/ODE-Book/releases/tag/0.0.1).

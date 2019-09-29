@@ -1,5 +1,63 @@
-\documentclass{book}
+\documentclass[12pt, a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{verbatim}
+\usepackage[T1]{fontenc}
+\usepackage{accanthis}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{siunitx}
+\usepackage{cite}
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=3cm]{geometry}
+\usepackage{makeidx}
+\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{sectsty}
+\usepackage{tocbibind}
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+%Criando Ambientes
+\newtheorem{defi}{Definição}[subsection]
+\newtheorem{teor}{Teorema}[subsection]
+\newtheorem{lema}{Lema}[subsection]
+\newtheorem{demo}{Demonstração}[subsection]
+\newtheorem{nota}{Notação}[subsection]
+\newtheorem{coro}{Corolário}[subsection]
+\newtheorem{propo}{Proposição}[subsection]
+\newtheorem{ex}{Exemplo}[subsection]
+\newtheorem{sol}{Solução}[subsection]
 
 \begin{document}
-	Teste
+	\chapter{Soluções de uma Equação Diferencial}
+	
+	\section{Definição de Solução}
+	
+	\begin{defi}
+		Qualquer função $f$ definida em algum intervalo $I$, que, quando substituído na ED, reduz a equação a uma identidade, é chamada de \textbf{Solução}. 
+	\end{defi}
+
+	\begin{ex}
+		Dada a função $y(x) = c_{1} sen(2x) + c_{2} cos(2x)$, sendo $c_{1}$ e $c_{2}$ constantes arbitrárias, mostre que $y(x)$ é solução da EDO \ $y''+4y = 0$.
+	\end{ex} 
+	
+	\begin{sol}
+		$$y'' + 4y = \frac{d^{2}y}{dx^{2}} + 4y$$
+		
+		$$y'' + 4y = \frac{d^{2}}{dx^{2}} \ \Big[c_{1} sen(2x) + c_{2} cos(2x)\Big] + 4 \ \Big[c_{1} sen(2x) + c_{2} cos(2x)\Big]$$
+		
+		$$y'' + 4y = \frac{d^{2}}{dx^{2}} \ \Big[c_{1} sen(2x) + c_{2} cos(2x)\Big] + 4 \ c_{1} sen(2x) + 4 \ c_{2} cos(2x)$$
+		
+		$$y'' + 4y = -4 \ c_{1} sen(2x) - 4 \ c_{2} cos(2x) + 4 \ c_{1} sen(2x) + 4 \ c_{2} cos(2x)$$
+		
+		$$y'' + 4y = 0$$
+		
+		Logo, \ $y(x) = c_{1} sen(2x) + c_{2} cos(2x)$ é solução da EDO \ $y''+4y = 0$.
+	\end{sol}
+	
+	
 \end{document}
